@@ -3,11 +3,28 @@ body {
   margin: 0;
   padding: 0;
 }
+#banner{
+	background: url('images/bg.png');
+	background-size: cover;
+	background-position: inherit;
+	height: 35vh;
+}
+.banner-text{
+	text-align:center;
+	color:#fff;
+	padding-top: 70px;
+}
+.banner-text h1{
+	font-size: 50px;
+}
+.banner-text p{
+	font-size: 20px;
+}
 
 h1 {
   text-align: center;
   font-size: 36px;
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
 ul {
