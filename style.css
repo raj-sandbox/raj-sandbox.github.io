@@ -3,22 +3,26 @@ body {
   margin: 0;
   padding: 0;
 }
-#banner{
-	background: url('images/bg.png');
-	background-size: cover;
-	background-position: inherit;
-	height: 35vh;
+
+#banner {
+  background: url('images/bg.png');
+  background-size: cover;
+  background-position: inherit;
+  height: 35vh;
 }
-.banner-text{
-	text-align:center;
-	color:#fff;
-	padding-top: 70px;
+
+.banner-text {
+  text-align: center;
+  color: #fff;
+  padding-top: 70px;
 }
-.banner-text h1{
-	font-size: 50px;
+
+.banner-text h1 {
+  font-size: 50px;
 }
-.banner-text p{
-	font-size: 20px;
+
+.banner-text p {
+  font-size: 20px;
 }
 
 h1 {
@@ -67,13 +71,14 @@ a:hover {
   height: 100%;
   object-fit: contain;
 }
+
 #note1 {
   background-color: #1d1d1f;
   padding: 20px;
   border-radius: 100px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: fit-content;
-  margin:auto;
+  margin: auto;
 }
 
 #note2 {
@@ -82,16 +87,17 @@ a:hover {
   border-radius: 100px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: fit-content;
-  margin:auto;
+  margin: auto;
 
 }
+
 nav {
   background-color: #333;
   color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
 }
 
 nav ul {
@@ -114,4 +120,8 @@ nav a {
 
 nav a:hover {
   color: #007bff;
+}
+
+.logo {
+  height: 35px;
 }
