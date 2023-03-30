@@ -247,12 +247,12 @@ nav a:hover {
 
 }
 
-.project-content {
+.project-edit {
   border: 5px solid #ccc;
   border-radius: 30px;
   overflow: hidden;
   width: 483px;
-  transform: translate(910px, -1350px);
+  transform: translate(910px, -1250px);
   padding: 20px;
   height: 207px;
 }
@@ -269,15 +269,15 @@ nav a:hover {
 }
 
 
-.experience-content {
+.experience-edit {
   border: 5px solid #ccc;
   border-radius: 30px;
   overflow: hidden;
   width: 265px;
-  transform: translate(22px, -1780px);
+  transform: translate(22px, -1705px);
   padding: 20px;
-  height: 388px;
-}
+  height: 413px;
+}  
 
 
 .experience-content h3 {
@@ -290,4 +290,23 @@ nav a:hover {
 
 .experience-content 0 {
   font-size: 13px;
+}
+.social-icons-ab {
+  display: flex;
+  justify-content: center;
+  margin-top: -1685px;
+  margin-bottom: 20px;
+}
+
+.social-icons-ab a {
+  display: inline-block;
+  margin: 0 20px;
+  width: 50px;
+  height: 50px;
+}
+
+.social-icons-ab img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
