@@ -39,13 +39,13 @@ ul {
 }
 
 li {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 a {
   text-decoration: none;
   color: #fff;
-  font-size: 24px;
+  font-size: 20px;
   transition: color 0.2s ease;
 }
 
@@ -75,7 +75,7 @@ a:hover {
 #note1 {
   background-color: #1d1d1f;
   padding: 20px;
-  border-radius: 100px;
+  border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: fit-content;
   margin: auto;
@@ -84,7 +84,7 @@ a:hover {
 #note2 {
   background-color: #1d1d1f;
   padding: 20px;
-  border-radius: 100px;
+  border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: fit-content;
   margin: auto;
@@ -124,4 +124,170 @@ nav a:hover {
 
 .logo {
   height: 35px;
+}
+
+
+.card {
+  border: 5px solid #ccc;
+  border-radius: 30px;
+  overflow: hidden;
+  width: 300px;
+  transform: translate(25px, 50px);
+}
+
+.card img {
+  width: 133%;
+  height: auto;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.card-content h3 {
+  margin-top: 0;
+}
+
+.card-content p {
+  margin-bottom: 10px;
+}
+
+.button {
+  display: block;
+  padding: 10px 15px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.aboutme-content {
+  border: 5px solid #ccc;
+  border-radius: 30px;
+  overflow: hidden;
+  width: 466px;
+  transform: translate(360px, -390px);
+  padding: 20px;
+}
+
+
+.aboutme-content h3 {
+  display: block;
+  padding: 10px 15px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 30px;
+}
+.aboutme-content p{
+  line-height: 2;
+}
+
+.education-edit {
+  border: 5px solid #ccc;
+  border-radius: 30px;
+  overflow: hidden;
+  width: 530px;
+  transform: translate(900px, -690px);
+}
+
+.education-content {
+  padding: 20px;
+}
+
+.education-content h3 {
+  display: block;
+  padding: 10px 15px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 30px;
+}
+
+.education-content h4 {
+  display: block;
+  padding: 10px 15px;
+  background-color: #7d7d7d;
+  color: #fff;
+  border-radius: 30px;
+}
+
+.education-content h5 {
+  font-size: large;
+}
+
+.skill-edit {
+  border: 5px solid #ccc;
+  border-radius: 30px;
+  overflow: hidden;
+  width: 511px;
+  transform: translate(360px, -990px);
+}
+
+.skill-content {
+  padding: 20px;
+}
+
+.skill-content h3 {
+  display: block;
+  padding: 10px 15px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 30px;
+}
+
+.skill-content h4 {
+  display: block;
+  padding: 10px 15px;
+  background-color: #7d7d7d;
+  color: #fff;
+  border-radius: 30px;
+}
+
+.skill-content li {
+  margin-left: 40px;
+
+}
+
+.project-content {
+  border: 5px solid #ccc;
+  border-radius: 30px;
+  overflow: hidden;
+  width: 483px;
+  transform: translate(910px, -1350px);
+  padding: 20px;
+  height: 207px;
+}
+
+.project-content h3 {
+  display: block;
+  padding: 10px 15px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 30px;
+}
+.project-content p{
+  line-height: 2;
+}
+
+
+.experience-content {
+  border: 5px solid #ccc;
+  border-radius: 30px;
+  overflow: hidden;
+  width: 265px;
+  transform: translate(22px, -1780px);
+  padding: 20px;
+  height: 388px;
+}
+
+
+.experience-content h3 {
+  display: block;
+  padding: 10px 15px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 30px;
+}
+
+.experience-content 0 {
+  font-size: 13px;
 }
